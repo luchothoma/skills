@@ -1,4 +1,3 @@
-
 ---
 name: php-slim-4-framework
 description: Expert in PHP Slim Framework v4 - Build professional REST APIs with actions, middleware, DI, and scalable architecture (2026).
