@@ -1,19 +1,32 @@
-# Mis Skills para Agentes IA
+# My AI Agent Skills
 
-Colección personal de skills reutilizables para **OpenCode**, **Claude Code**, **Cursor** y otros agentes de IA.
+Personal collection of reusable skills for **OpenCode**, **Claude Code**, **Cursor**, and other AI agents.
 
-### Skills disponibles actualmente
+### Currently Available Skills
 
-- **php-slim-4-framework** → Experto completo en PHP Slim Framework v4 para crear APIs REST, middlewares, actions y proyectos escalables.
+- **php-slim-4-framework** → Complete expert in PHP Slim Framework v4 for creating REST APIs, middleware, actions, and scalable projects.
 
-### Cómo instalar las skills
+### How to Install Skills
 
 ```bash
-# Instalar todas las skills del repo (recomendado)
+# Install all skills from the repo (recommended)
 npx skills add luchothoma/skills
 
-# Instalar solo la skill de Slim 4 Framework
+# Install only the Slim 4 Framework skill
 npx skills add luchothoma/skills --skill php-slim-4-framework
 
-# Instalación global (disponible en todos los proyectos)
+# Global installation (available across all projects)
 npx skills add luchothoma/skills -g
+```
+
+---
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (for `npx skills`)
+- A compatible AI agent (Claude Code, OpenCode, Cursor, etc.)
+
+### Contribution
+Feel free to fork this repository to add your own skills or suggest improvements to existing ones.
+
+### License
+These skills are distributed under the **MIT License**. See [LICENSE](LICENSE) for more details.
