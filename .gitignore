@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Composer
+vendor/
+composer.lock
+
+# PHP
+*.log
+.phpunit.result.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
