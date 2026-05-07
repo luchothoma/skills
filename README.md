@@ -6,6 +6,7 @@ Personal collection of reusable skills for **OpenCode**, **Claude Code**, **Curs
 
 - **llm-concise-talking** → Ultra-concise responses with compressed thinking and token optimization.
 - **php-slim-4-framework** → Complete expert in PHP Slim Framework v4 for creating REST APIs, middleware, actions, and scalable projects.
+- **karpathy-coding-principles** → Disciplined coding to avoid common LLM mistakes — think first, keep it simple, read before write, surgical changes, goal-driven execution.
 
 ### How to Install Skills
 
@@ -18,6 +19,9 @@ npx skills add luchothoma/skills --skill php-slim-4-framework
 
 # Install only the LLM Concise Talking skill
 npx skills add luchothoma/skills --skill llm-concise-talking
+
+# Install only the Karpathy Coding Principles skill
+npx skills add luchothoma/skills --skill karpathy-coding-principles
 
 # Global installation (available across all projects)
 npx skills add luchothoma/skills -g
